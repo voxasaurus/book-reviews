@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.featured-books {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+article {
+    border: 1px solid #ccc;
+    padding: 10px;
+    max-width: 200px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+.book-details {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.review {
+    border-top: 1px solid #eee;
+    padding: 10px 0;
+}
+
+.review h3 {
+    font-size: 1.2em;
+}
+.registration-form,
+.login-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.registration-form form,
+.login-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.profile-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+#readingLists > li {
+    border: 1px solid #eee;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+#readingLists > li h4 {
+    font-size: 1.4em;
+}
+/* Additional styles for registration page */
+form#registrationForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+form#registrationForm label,
+form#registrationForm input {
+    width: 100%;
+}
+
+form#registrationForm button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+form#registrationForm button:hover {
+    background-color: #0056b3;
+}
+/* Additional styles for profile page */
+#userInfo {
+    background-color: #f2f2f2;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+#editProfileBtn {
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+
+#userReviews ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#userReviews li {
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+/* Additional styles for edit profile page */
+#editProfileFormSection {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 15px;
+    cursor: pointer;
+}

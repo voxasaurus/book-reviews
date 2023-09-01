@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Edit Profile - Book Review Platform</title>
+</head>
+
+<body>
+    <header>
+        <h1>Book Review Platform</h1>
+        <nav>
+            <!-- Add other navigation links if needed -->
+            <a href="login.html">Logout</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="editProfileFormSection">
+            <h2>Edit Profile</h2>
+            <form id="editProfileForm">
+                <div class="form-group">
+                    <label for="editUsername">Username:</label>
+                    <input type="text" id="editUsername" required>
+                </div>
+                <div class="form-group">
+                    <label for="editEmail">Email:</label>
+                    <input type="email" id="editEmail" required>
+                </div>
+                <div class="form-group">
+                    <label for="editPassword">New Password (leave blank to keep current):</label>
+                    <input type="password" id="editPassword">
+                </div>
+                <button type="submit">Update Profile</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Add footer content if needed -->
+    </footer>
+
+    <script src="js/editProfile.js"></script>
+</body>
+
+</html>
